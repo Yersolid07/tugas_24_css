@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 24 CSS - NIOMIC</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <style>
+      label {
+        font-weight: 700;
+      }
+      div {
+        margin: 0 0 20px 0;
+      }
+      .radio {
+        font-weight: 300;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="formgroup">
+        <label class="label">Nama Lengkap</label>
+        <input type="text" placeholder="Nama Lengkap" class="form-control" />
+      </div>
+      <div class="formgroup">
+        <label class="label">Alamat Rumah</label>
+        <textarea rows="2" cols="30" class="form-control"></textarea>
+      </div>
+      <div class="formgroup">
+        <label>Foto Profil</label>
+        <input type="file" accept="image/*" class="form-control" />
+      </div>
+
+      <div class="formgroup">
+        <label class="label">Alamat Email</label>
+        <input name="email" placeholder="Alamat Email" class="form-control" />
+      </div>
+      <div class="formgroup">
+        <label class="label">Kata Sandi</label>
+        <input type="password" placeholder="Kata Sandi" class="form-control" />
+      </div>
+      <div class="formgroup">
+        <p>
+          Jenis Kendaraan Anda : <label class="radio"><input type="radio" /> Motor</label> <label class="radio"><input type="radio" /> Mobil</label>
+        </p>
+      </div>
+      <button type="button" name="button" class="btn btn-primary">Register</button>
+    </form>
+  </body>
+</html>
